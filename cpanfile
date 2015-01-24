@@ -7,4 +7,6 @@ requires 'HTML::StickyQuery';
 on test => sub {
     requires 'Test::More';
     requires 'HTTP::Request::Common';
+    requires 'HTTP::TreeBuilder::XPath';
+    requires 'Readonly';
 };
